@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #212121;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .logo-header {
-  font-family: "raleway";
+  font-family: 'raleway';
   font-size: 26px;
   font-weight: bold;
   text-decoration: none;
@@ -61,7 +61,7 @@ body {
 }
 
 .logo-footer {
-  font-family: "raleway";
+  font-family: 'raleway';
   font-size: 26px;
   font-weight: bold;
   text-decoration: none;
@@ -93,10 +93,11 @@ body {
   line-height: 1.36;
 }
 
-.order-button {
+.order-box button {
   background-color: var(--brand-blue-color);
-  height: 200 px;
-  weight: 50 px;
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
   font-size: 16 px;
   font-weight: 700;
   color: var(--white-color);
@@ -174,4 +175,8 @@ body {
   text-align: left;
   letter-spacing: 0.03pc;
   line-height: 1.875;
+}
+
+ul {
+  list-style: none;
 }
